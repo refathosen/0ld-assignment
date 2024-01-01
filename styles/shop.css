@@ -47,6 +47,8 @@ header {
 }
 .banner-pic {
   width: 530px;
-  height: 670px;
+  height: 630px;
   flex-shrink: 0;
 }
+
+/* main section styles */
