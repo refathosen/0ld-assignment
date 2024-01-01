@@ -1,7 +1,52 @@
 /* common shared styles */
 
-body{
-    font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* Header section styles */
+
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 50px 150px 0px 150px;
+  justify-content: space-between;
+}
+.banner-contant {
+  width: 800px;
+}
+.banner-title {
+  color: #272727;
+  font-size: 70px;
+  font-weight: 800;
+  margin: 40px 10px 20px 0px;
+  width: 700px;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 650px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.banner-pic {
+  width: 530px;
+  height: 670px;
+  flex-shrink: 0;
 }
