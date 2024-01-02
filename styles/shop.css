@@ -48,7 +48,7 @@ header {
   padding: 50px 150px 0px 150px;
   justify-content: space-between;
 }
-.banner-contant {
+.banner-content {
   width: 800px;
 }
 .banner-title {
@@ -232,4 +232,59 @@ header {
   width: 290px;
   height: 330px;
   flex-shrink: 0;
+}
+
+/* latest deals section */
+
+.latest-deals {
+  width: 1235px;
+  height: 380px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  margin-top: 128px;
+}
+.deals-content {
+  padding: 70px 50px;
+}
+
+.deals-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.deals-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.contact input[type="email"] {
+  width: 550px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  border: 0;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+.contact {
+  align-items: center;
+  text-align: center;
+  margin-left: 80px;
 }
