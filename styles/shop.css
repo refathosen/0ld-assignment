@@ -169,7 +169,6 @@ header {
   width: 1500px;
   height: 350px;
   flex-shrink: 0;
-  border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   display: flex;
   justify-content: space-around;
@@ -287,4 +286,37 @@ header {
   align-items: center;
   text-align: center;
   margin-left: 80px;
+}
+
+/* footer section styles */
+footer{
+  background: #111010;
+  padding: 128px 500px;
+  align-items: center;
+  text-align: center;
+}
+.footer-title{
+  color: #E55473;
+font-size: 48px;
+font-weight: 800;
+}
+.footer-shop{
+  color: #FFF;
+font-size: 48px;
+font-weight: 800;
+}
+.footer-description{
+  color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 550px;
+margin: 20px 100px 30px 0px ;
+}
+.footer-copyright{
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
 }
